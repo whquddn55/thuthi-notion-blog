@@ -1,0 +1,13 @@
+// 해당 import문의 순서를 변경하면 스타일이 제대로 적용되지 않습니다.
+@import 'react-notion-x/styles.css';
+@import 'katex/dist/katex.min.css';
+@import 'prismjs/themes/prism-coy.css';
+@import '~/styles/global.css';
+@import '~/styles/notion.css';
+@import '~/styles/prism-theme.css';
+
+@import './vars.scss';
+@import './notion.scss';
+
+@import '~/components/Comments/index.scss';
+@import '~/components/PageLoading/index.scss';
