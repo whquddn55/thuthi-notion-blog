@@ -2,23 +2,23 @@ import { siteConfig } from './lib/site-config';
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd1e89e9e42eb4ebf9486ae0374039efc',
+  rootNotionPageId: 'b448894a9b144ca38e9917210a04cf0f',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '2skydev blog',
-  domain: 'blog.2skydev.com',
-  author: '2skydev',
+  name: 'thithi blog',
+  domain: 'thuthi-dev-vercel.app',
+  author: 'thuthi',
 
   // open graph metadata (optional)
-  description: '2skydev blog - developer blog',
+  description: '피곤한투티의 개발 블로그',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: '2skydev',
+  github: 'thuthi',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -26,7 +26,7 @@ export default siteConfig({
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon:
-    'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d2daa37-61d0-45b6-b333-9a2bd0bdc3ee%2Fprofile_%25E1%2584%2580%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AA%25E1%2584%258C%25E1%2585%25B5%25E1%2586%25AF_circle.png?table=block&id=d1e89e9e-42eb-4ebf-9486-ae0374039efc&spaceId=2eb5336b-2edb-42d0-bc6c-95d72d4d1b74&width=250&userId=bef10e95-202b-4b6b-9626-7af866b6f9ba&cache=v2',
+    'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F088378bc-5375-4d71-a9d5-ddd80fdb88b5%2Foutput-onlinepngtools.ico?table=block&id=42d67096-b92b-4788-97c9-e2e3f204b071&spaceId=c79e73d5-18db-42c7-96a2-b38cc51620a5&userId=86b2ce99-dd8f-4472-ac13-fdad7f28f902&cache=v2',
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -50,13 +50,13 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
-    },
-  ],
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: '카테고리',
+  //     pageId: '36400db511474331b5c1de6918212469',
+  //   },
+  // ],
 
   // -------- custom configs (2skydev) -------------
 
